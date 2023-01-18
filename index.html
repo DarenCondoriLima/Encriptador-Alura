@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador</title>
+        <link rel="Stylesheet" href="reset.css">
+        <link rel="Stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+        <style> @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap'); </style>
+    </head>
+    <body>
+        <main>
+            <div class="general">
+                <div class="block-1">
+                    <img src="img/Logo.png" alt="Logo" class="logo">
+                    <div class="Insertar-texto">
+                        <textarea id="IngreseTexto" class="ingreseTexto" placeholder="Ingrese el texto aqui"></textarea>
+                    </div>
+                    <div class="botones-alerta">
+                        <div class="alerta">
+                            <img src="img/alerta.png" class="logo-alerta">
+                            <p>Solo letras minúsculas y sin acentos</p>
+                        </div>
+                        <div class="botones">
+                            <input type="submit" value="Encriptar" class="botonEncriptar" id="BotonEncriptar">
+                            <input type="submit" value="Desencriptar" class="botonDesencriptar" id="BotonDesencriptar">
+                        </div>
+                    </div>                                   
+                </div> 
+                <div class="block-2">
+                    <div class="Mostrar-textoEncriptado">
+                        <div id="text">
+                            <Textarea id="Textarea" class="textarea" disabled></Textarea>
+                            <input type="submit" id="Copy" class="copy" value="Copiar">
+                        </div>
+                        <div id="no-text">
+                            <img src="img/Muñeco.png" alt="Joven con lupa" class="img-encriptar">
+                            <p class="text1">Ningún mensaje fue encontrado</p>                   
+                            <p class="text2">Ingresa el texto que desee encriptar o desencriptar</p>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script type="text/javascript" src="script.js"></script>            
+    </body>
+    <footer>
+        <p>Sitio desarrollado por Daren Paulo José Condori Lima</p>
+        <p>Correo: darencondorilima@gmail.com</p>
+    </footer>
+</html>
+
+

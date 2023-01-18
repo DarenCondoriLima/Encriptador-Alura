@@ -1,0 +1,222 @@
+html{
+    background: #E9ECF8;
+    font-family: 'Indie Flower', cursive;
+}
+.general{
+    width: 94vw;
+    height: 94vh;
+    padding: 0 auto;
+    margin: auto;
+    margin-top: 3vh;
+    max-width: 2040px;
+    max-height: 1080px;
+}
+.block-1 {
+    display: inline-block;
+    width: 65vw;
+    height: 94vh;
+    box-sizing: border-box;
+}
+.logo{
+    margin: 0 0 0 3vw;
+}
+.ingreseTexto{
+    font-family: 'Indie Flower', cursive;
+    font-size: 32px;
+    color: #0A3871;
+    background: #E9ECF8;
+    border:  none;
+    outline: none;
+    margin: 9vh 0 0 14vw;
+    padding: 0 0;
+    resize: none;
+    width: 46vw;
+    height: 58vh;
+}
+.botones-alerta{   
+    margin: auto;
+    margin-top: 5vh;
+    margin-left: 10vw;
+}
+.alerta{
+    font-size: 16px;
+    color: #495057;
+}
+.logo-alerta{
+    float: left;
+}
+.botones{   
+    margin-top: 0.5em;
+}
+.botonEncriptar{
+    cursor: pointer;
+    width: 22.7vw;
+    height: 7vh;  
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
+    border-radius: 24px;
+    color: white;
+    background-color: #0A3871;
+    transition: 0.3s;
+    outline: none;
+
+}
+.botonEncriptar:hover{
+    font-size: 26px;
+    background-color: #072041;
+}
+.botonEncriptar:active{
+    font-size: 18px;
+    background-color: #072041;
+}
+.botonDesencriptar{
+    cursor: pointer;
+    width: 22.7vw;
+    height: 7vh; 
+    font-size: 20px;   
+    font-family: 'Indie Flower', cursive;
+    border-radius: 24px;
+    color: #0A3871;
+    background-color: #a8c2e4;
+    transition: 0.3s;
+    outline: none;
+}
+.botonDesencriptar:hover{
+    font-size: 25px;
+    background-color: #a8b3e4;
+}
+.botonDesencriptar:active{
+    font-size: 18px;
+    background-color: #a8b3e4;
+}
+.block-2{
+    float: right;
+}
+.Mostrar-textoEncriptado{
+    width: 28vw; 
+    height: 94vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 32px;
+    box-sizing: border-box;
+ }
+ #text{
+    display: none;
+ }
+.block-2 textarea{
+    width: 22vw;
+    height: 77vh;
+    padding: 3vh 3vw 3vh 3vw;
+    resize: none;
+    border: none;
+    font-family: 'Indie Flower', cursive;
+    font-size: 32px;
+    color: #0A3871;
+ }
+ .copy{
+    cursor: pointer;
+    width: 22.7vw;
+    height: 7vh; 
+    font-size: 20px;   
+    font-family: 'Indie Flower', cursive;
+    border-radius: 24px;
+    color: #0A3871;
+    background-color: #9ee8f1;
+    margin: 0 0 0 2.8vw;
+    transition: 0.3s;
+    outline: none;
+}
+ .copy:hover{
+    font-size: 26px;
+    background-color: #68acec;
+}
+ .copy:active{
+    font-size: 18px;
+    background-color: #68acec;
+}
+ .no-text{
+    padding: 17vh 0;
+ }
+.img-encriptar{
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+    padding: auto;
+    padding-top: 15vh;
+    padding-left: 3vw;
+   
+}
+.text1{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #495057;
+    padding: 1em 0;
+}
+.text2{
+    font-size: 16px;
+    text-align: center;
+    color: #495057;
+    padding: 0 0;
+}
+footer{
+    background-color: #0A3871;
+    color: white;
+    text-align: center;
+    padding: 3vh 0;
+    margin:auto;
+    margin-top: 3vh;
+}
+@media only screen and (max-width: 660px){
+    .block-1{
+        width: 94vw;
+        height: 60vw;
+        box-sizing: border-box;
+    }
+    .ingreseTexto{
+        width: 70vw;
+        height: 28vh;
+    }
+    .botones-alerta{
+        margin-left: 22vw;
+    }
+    .Mostrar-textoEncriptado{
+        width: 94vw;
+        height: 33vw;
+        margin-top: 2vh;
+    }
+    .block-2 textarea{
+        width: 88vw;
+        height: 19vh;
+    }
+    .copy{
+        width: 85vw;
+        margin: auto;
+        margin-left: 4.6vw;
+    }
+    .img-encriptar{
+        display: none;
+    }
+    .no-text{
+        margin-top: 4vh;
+    }
+    .text1{
+        padding-top: 3em;
+    }
+
+}
+@media only screen and (max-width: 480px){
+    .botones-alerta{
+        margin-left: 5vw;  
+    }
+    .botonEncriptar{
+        width: 40vw;
+    }
+    .botonDesencriptar{
+        width: 40vw;
+    }
+    .Mostrar-textoEncriptado{
+        height: 30vh;
+        margin: auto;
+        margin-top: 5vh;
+    }
+}
